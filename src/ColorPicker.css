@@ -1,0 +1,35 @@
+.color-picker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .picker-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background: linear-gradient(to right, #ff8a00, #e52e71);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .color-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .color-item {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .selected {
+    border: 2px solid #000;
+  }
+  
